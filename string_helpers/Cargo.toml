@@ -1,0 +1,6 @@
+[package]
+name = "string_helpers"
+version = "0.1.0"
+authors = ["Arman Elahi <arasela95@gmail.com>"]
+
+[dependencies]

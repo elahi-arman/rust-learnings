@@ -1,0 +1,10 @@
+# Error Handling
+
+Rust requires to acknowledge errors. THey can be either recoverable or unrecoverale
+  Recoverable - report the problem to the user and retry the operatio. Result <T, E>
+  Unrecoverable - symptom of bug -- panic! stops execution
+
+## Unrecoverable
+walks back, cleans up and then exits. Use panic = 'abort' in appropriate [profile] in Cargo.toml
+
+    
